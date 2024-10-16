@@ -18,15 +18,18 @@ body {
   font-family: "Open Sans", sans-serif;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: blueviolet;
+  height: 100vh;
 }
 main {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 90vh;
-  background-color: rgba(0, 0, 0, 0.1);
+  height: 40vh;
+  background-color: rgba(255, 251, 251, 0.1);
   width: 25rem;
   margin: 0 auto;
 }
